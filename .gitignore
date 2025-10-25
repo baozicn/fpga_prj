@@ -1,0 +1,38 @@
+# Ignore generated/binary files for FPGA projects
+# Generic temp
+*.log
+*.jou
+*.wdb
+*.vpd
+*.pb
+*.tmp
+*.str
+*.db
+
+# Vendor tool caches
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.webtalk/
+*.xpr
+*.xgui
+
+# Bitstreams & images
+*.bit
+*.bin
+*.svf
+
+# Simulation artifacts
+*.vcd
+sim/sim.vvp
+sim/*.mem
+images/*.pgm
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build outputs
+output/
